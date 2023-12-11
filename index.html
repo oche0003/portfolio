@@ -5,31 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Home</title>
 </head>
 <body class="container">
     <header>
         <img src="images/Boho Abstract Handwritten Brand Logo (3).png" alt="Logo">
         <h1>Welcome</h1>
-        <div class="toggle-btn" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <label class="hamburger-menu">
+          <input type="checkbox" />
+        </label>
+        <aside class="sidebar">
+          <nav>
+            
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    
+    
+          </nav>
+    
+      </aside>
     </header>
 
     <img src="images/mainperpy.JPG" alt="mainimage">
-    <h3>🌟 Welcome to my creative corner!</h3>
-    <h3>👗 Journey into Fashion Content Creation</h3>
-    <h3>📸 Growing Together, One Post at a Time</h3>
-    <h3>🛍️ Collaborations with Leading Fashion Brands</h3>
-    <h3>🎨 Beyond Fashion: A Multifaceted Creator</h3>
-
+    <nav id="skip-links" class="main-nav">
+        <a href="about.html#welcome-section">🌟 Welcome to my creative corner</a>
+        <a href="about.html#journey-section">👗 Journey into Fashion Content Creation</a>
+        <a href="about.html#growing-section">📸 Growing Together, One Post at a Time</a>
+        <a href="about.html#collaborations-section">🛍️ Collaborations with Leading Fashion Brands</a>
+        <a href="about.html#beyond-section">🎨 Beyond Fashion: A Multifaceted Creator</a>
+    </nav>
    
 
      <h2>Videos</h2>
